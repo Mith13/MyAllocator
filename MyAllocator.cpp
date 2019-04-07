@@ -112,6 +112,7 @@ public:
 		std::cout << "Segment header size is " << sizeof(segment) << std::endl;
 		//pool.reserve(1);
 	}
+	/* Descturctor */
 	~MyAllocator() {
         std::cout<<std::endl;
 		for (int i = 0; i < pool.size(); i++) {
